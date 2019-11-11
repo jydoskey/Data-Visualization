@@ -19,7 +19,7 @@ while True:
     
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
-    plt.show('Random walk with the Blue colormap and start_end point')
+    plt.savefig('Random walk with the Blue colormap and start_end point refactored')
     
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
